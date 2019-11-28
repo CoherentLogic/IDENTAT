@@ -1,0 +1,7 @@
+IDENTAT.COM: IDENTAT.ASM
+        ML /AT IDENTAT.ASM                
+
+CLEAN:
+        ERASE IDENTAT.OBJ
+        ERASE IDENTAT.COM
+
