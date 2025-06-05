@@ -2,8 +2,8 @@
 ;; IDENTAT.ASM
 ;;  IdentAT PC/AT Identifier
 ;;
-;; Author:  John P. Willis <jpw@coherent-logic.com>
-;;  Copyright (C) 2019 Coherent Logic Development
+;; Author:  Serena Willis <snw@coherent-logic.com>
+;;  Copyright (C) 2019, 2025 Coherent Logic Development
 ;;
 ;;
 ;;  This program is free software: you can redistribute it and/or modify
@@ -28,7 +28,7 @@ first:
     jmp start           ; Jump over data
 
 Banner1 BYTE    "IdentAT PC/AT Identifier v0.0.1", 13, 10, "$"
-Banner2 BYTE    "  Copyright (C) 2019 John P. Willis", 13, 10, 13, 10, "$"
+Banner2 BYTE    "  Copyright (C) 2019, 2025 Serena Willis", 13, 10, 13, 10, "$"
 VerStrt BYTE    "Verifying machine ID marker byte...  $"
 VerGood BYTE    "[AT]",13,10,"$"
 VerBad  BYTE    "[NOT AT]",13,10,"$"
